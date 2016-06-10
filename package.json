@@ -1,0 +1,33 @@
+{
+  "name": "wttr-cli",
+  "version": "0.1.0",
+  "description": "Wttr.in right from the Command Line",
+  "license": "MIT",
+  "bin": {
+    "wttr": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horefice/wttr-cli.git"
+  },
+  "author": {
+    "name": "Henrique Orefice",
+    "email": "h.orefice@gmail.com",
+    "url": "horefice.me"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "weather",
+    "wttr"
+  ],
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
